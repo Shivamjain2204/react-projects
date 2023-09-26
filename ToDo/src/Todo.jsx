@@ -16,7 +16,7 @@ function Todo() {
 
     function removeTask(i){
         const updatedListData = listData.filter((elem, id)=>{
-            return i!= id;
+            return i!== id;
         })
         setListData(updatedListData)
     }
