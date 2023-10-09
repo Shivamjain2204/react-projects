@@ -64,7 +64,7 @@ function App() {
             <input
             type="range"
             min={5}
-            max={100}
+            max={30}
             value={length}
             className='cursor-pointer'
             onChange={(e)=> {setLength(e.target.value)}}
